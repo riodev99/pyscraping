@@ -12,9 +12,9 @@ setup(
     description= des + ' ' + dess,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author='Rio Agung Purnomo',
-    author_email='rioagungpurnomo.ak@gmail.com',
-    url='https://github.com/rioagungpurnomo/pyscraping',
+    author='riodev99',
+    author_email='jgeniya1994@gmail.com',
+    url='https://github.com/riodev99/pyscraping',
     packages=['pyscraping'],
     classifiers=[
         'Development Status :: 3 - Alpha',
