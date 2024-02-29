@@ -8,7 +8,7 @@ dess = 'Python, built with simplicity in mind.'
 
 setup(
     name='pyscraping',
-    version='1.0.1',
+    version='1.0.2',
     description= des + ' ' + dess,
     long_description=long_description,
     long_description_content_type="text/markdown",
