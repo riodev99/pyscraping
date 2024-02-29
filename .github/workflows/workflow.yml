@@ -1,9 +1,11 @@
 name: Publish to PyPI
 
 on:
-  push:
-    tags:
-      - '*'
+  release:
+    types:
+      - created
+    workflows:
+      - release666
 
 jobs:
   build:
