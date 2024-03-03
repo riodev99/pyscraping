@@ -9,12 +9,15 @@ dess = 'Python, built with simplicity in mind.'
 setup(
     name='pyscraping',
     version='1.0.3',
-    description= des + ' ' + dess,
+    description=des + ' ' + dess,
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='riodev99',
     author_email='jgeniya1994@gmail.com',
-    url='https://github.com/riodev99/pyscraping',
+    url='https://github.com/riodev99/pyscraping', 
+    project_urls={
+        'Source': 'https://github.com/riodev99/pyscraping',  # The "Source" label URL pointing to GitHub repo
+    },
     packages=['pyscraping'],
     classifiers=[
         'Development Status :: 3 - Alpha',
