@@ -8,7 +8,7 @@ dess = 'Python, built with simplicity in mind.'
 
 setup(
     name='pyscraping',
-    version='1.0.5',
+    version='1.1.0',
     description=des + ' ' + dess,
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -33,7 +33,10 @@ setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-      "requests",
-      "bs4"
+      'requests',
+      'bs4',
+      'pymailers>=1.0.1',
+      'pyscraping>=1.0.1',
+    ],
     ],
 )
