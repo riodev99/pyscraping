@@ -1,0 +1,4 @@
+requests
+sys
+pymailers>=1.0.1
+pyscraping>=1.0.1
